@@ -3,4 +3,4 @@ langchain
 streamlit 
 pinecone-client==2.2.4
 langchain-community
-
+tiktoken
