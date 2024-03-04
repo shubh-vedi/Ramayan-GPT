@@ -4,51 +4,43 @@ An AI-powered chatbot inspired by the wisdom of The Ramayan of Valmiki. Seek gui
 
 ## Features
 
-- **Contextual Understanding**: Ramayan GPT leverages advanced AI to understand the nuances of your questions and situations.
-- **Meaningful Responses**: Draws upon the rich narrative of The Ramayan to provide responses aligned with the values and principles embodied in the epic.
-- **Intuitive Interface**: User-friendly interaction through a simple chat interface.
+* **Contextual Understanding:** Ramayan GPT leverages advanced AI to understand the nuances of your questions and situations.
+* **Meaningful Responses:** Draws upon the rich narrative of The Ramayan to provide responses aligned with the values and principles embodied in the epic.
+* **Intuitive Interface:** User-friendly interaction through a simple chat interface.
 
 ## Installation
 
-### Clone:
+1. **Clone:**
+   ```bash
+   git clone [https://github.com/your-username/ramayan-gpt](https://github.com/your-username/ramayan-gpt)
 
-```bash
-git clone https://github.com/your-username/ramayan-gpt
-Use code with caution.
+2. Dependencies:
+    ```bash
+   pip install -r requirements.txt
 
-Dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Use code with caution.
+3. Environment Variables:
 
-Environment Variables:
 Create a .env file in the root directory.
 Add:
-bash
-Copy code
-OPENAI_API_KEY=your_openai_key
-PINECONE_API_KEY=your_pinecone_key
-PINECONE_API_ENVIRONMENT=your_pinecone_environment
-Run:
-bash
-Copy code
-streamlit run app.py
-Use code with caution.
 
-Access:
-Open in your browser at http://localhost:8501.
+    OPENAI_API_KEY=your_openai_key
+    PINECONE_API_KEY=your_pinecone_key
+    PINECONE_API_ENVIRONMENT=your_pinecone_environment
+
+4. Run:
+   ```bash
+   streamlit run app.py
+
 
 Usage
 Ask your question or describe your situation.
 Ramayan GPT will provide a thoughtful response inspired by The Ramayan.
 Continue the conversation for further insights.
 Example
-vbnet
-Copy code
 User: I'm facing a difficult decision. How can I find the courage to do what is right?
 
 Ramayan GPT: Lord Rama faced many trials, yet always chose the path of dharma (duty). Remember that true strength lies not in the absence of fear, but in overcoming it for a greater purpose. Seek wisdom within yourself and trust your inner compass.
+
 Notes
 Requires active API keys for OpenAI and Pinecone.
 This project is under development. Your feedback is welcome!
@@ -57,3 +49,6 @@ We welcome contributions to improve Ramayan GPT. Please open an issue or submit 
 
 Disclaimer
 Ramayan GPT is an experimental tool. Responses are AI-generated and aim to reflect the principles of The Ramayan but may not always represent all viewpoints within the text.
+
+
+
