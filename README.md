@@ -28,8 +28,8 @@ Add:
     PINECONE_API_ENVIRONMENT=your_pinecone_environment
 
 4. Run:
-   ```bash
-   streamlit run app.py
+      ```bash
+      streamlit run app.py
 
 
 # Usage
