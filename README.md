@@ -32,16 +32,17 @@ Add:
    streamlit run app.py
 
 
-Usage
+# Usage
 Ask your question or describe your situation.
 Ramayan GPT will provide a thoughtful response inspired by The Ramayan.
 Continue the conversation for further insights.
-Example
+
+# Example
 User: I'm facing a difficult decision. How can I find the courage to do what is right?
 
 Ramayan GPT: Lord Rama faced many trials, yet always chose the path of dharma (duty). Remember that true strength lies not in the absence of fear, but in overcoming it for a greater purpose. Seek wisdom within yourself and trust your inner compass.
 
-Notes
+#Notes
 Requires active API keys for OpenAI and Pinecone.
 This project is under development. Your feedback is welcome!
 Contributing
