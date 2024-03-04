@@ -11,7 +11,7 @@ An AI-powered chatbot inspired by the wisdom of The Ramayan of Valmiki. Seek gui
 
 # Streamlit Deployment Link :
 
-Streamlit link : ([http://34.200.246.244:8503](https://ramayan-gpt.streamlit.app/)/)
+Streamlit link : ([https://ramayan-gpt.streamlit.app/](https://ramayan-gpt.streamlit.app/)/)
 
 ## Installation
 
